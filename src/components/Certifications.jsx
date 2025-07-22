@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { motion, useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import {  FaGraduationCap, FaMedal, FaScroll } from "react-icons/fa";
 import {
@@ -53,7 +53,6 @@ const certificationData = [
 const Certifications = () => {
   const [ref, inView] = useInView();
   const [viewDiv, setViewDiv] = useState(false);
-  const animation = useAnimation();
 
   useEffect(() => {
     if (inView) setViewDiv(true);
