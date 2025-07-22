@@ -6,7 +6,7 @@ const Education = () => {
   return (
     <div className="pt-24">
       <div className="mb-12">
-        <h1 className="text-4xl font-semibold drop-shadow-md text-center">
+        <h1 className="text-4xl font-semibold drop-shadow-md text-center" style={{ color: "#6C0345" }}>
           My <span className="text-primary">Qualification</span>
         </h1>
       </div>
