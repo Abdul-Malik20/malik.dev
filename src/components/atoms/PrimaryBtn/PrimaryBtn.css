@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  background-color: #093FB4; /* Your desired blue */
+  background-color: #093FB4; 
   color: white;
   overflow: hidden;
   cursor: pointer;
@@ -33,7 +33,7 @@
 }
 
 .primary-button:hover {
-  background-color: #072c80; /* Darker shade on hover */
+  background-color: #072c80; 
   color: #ffffff;
   transform: translateY(-4px);
   box-shadow: 0 8px 20px rgba(9, 63, 180, 0.3);
