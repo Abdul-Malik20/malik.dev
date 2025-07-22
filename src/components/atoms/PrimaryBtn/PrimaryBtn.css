@@ -1,0 +1,40 @@
+.primary-button {
+  padding: 10px 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #093FB4; /* Your desired blue */
+  color: white;
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.4s ease, transform 0.3s ease;
+}
+
+.primary-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: #eefeef;
+  opacity: 0.1;
+  transition: all 0.5s ease;
+}
+
+.primary-button:hover::before {
+  left: 0;
+}
+
+.primary-button:hover {
+  background-color: #072c80; /* Darker shade on hover */
+  color: #ffffff;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(9, 63, 180, 0.3);
+}
