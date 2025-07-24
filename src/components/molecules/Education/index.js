@@ -46,7 +46,7 @@ const Education = () => {
           <div className="p-6 bg-[#EEF5FF] bg-opacity-90 backdrop-blur-lg rounded-lg shadow-lg w-[300px] hover:shadow-primary duration-300 cursor-pointer">
             <div className="text-right mb-4">
               <h3 className="text-2xl font-semibold text-primary">SSLC (10th)</h3>
-              <p className="text-sm text-neutral font-semibold">2018 - 2020</p>
+              <p className="text-sm text-neutral font-semibold">2018 - 2019</p>
             </div>
             <p className="text-sm text-neutral text-justify">
               Secured <b>81%</b> in SSLC from <b>Al – Hudha Islamic International MHSS</b>, Tamil Nadu.
