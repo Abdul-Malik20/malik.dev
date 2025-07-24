@@ -81,7 +81,7 @@ export default function Navbar() {
 
             <a
               className="inline-block ml-4"
-              href="https://drive.google.com/file/d/1oPnsiUcPILxTGRDuVf7pEScyzbvtHf37/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1VuEfxfEI0_BiVg87cR4VdyjTr5K2Ulaq/view?usp=drivesdk"
               target="blank"
             >
               <PrimaryBtn>
@@ -129,7 +129,7 @@ export default function Navbar() {
                 <li className="text-center m-4">
                   <a
                     className="inline-block w-full"
-                    href="https://drive.google.com/file/d/1oPnsiUcPILxTGRDuVf7pEScyzbvtHf37/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1VuEfxfEI0_BiVg87cR4VdyjTr5K2Ulaq/view?usp=drivesdk"
                     target="blank"
                   >
                     <button className="primary-button w-full text-white">

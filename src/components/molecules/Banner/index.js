@@ -46,7 +46,7 @@ const Banner = () => {
 
       <div className="flex flex-wrap items-center gap-4">
         <a
-          href="https://drive.google.com/file/d/1oPnsiUcPILxTGRDuVf7pEScyzbvtHf37/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1VuEfxfEI0_BiVg87cR4VdyjTr5K2Ulaq/view?usp=drivesdk"
           target="_blank"
           rel="noreferrer"
         >
